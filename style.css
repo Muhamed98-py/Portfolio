@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Manrope:wght@400;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: 201A23;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 40px;
+}
+
+.hero {
+    display: block;
+    margin: 60px auto;
+}
+
+.hero h1 {
+    font-family: Manrope;
+    font-size: 36px;
+    color: white;
+    line-height: 120%;
+}
+
+u {
+    color: FEDD2C;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.subtitle {
+    font-family: Manrope;
+    font-size: 36px;
+    color: white;
+}
+
+.project-card {
+    width: 350px;
+    margin-top: 20px;
+    padding: 30px 15px;
+    background-color: blue;
+    border-radius: 8px;
+}
+
+.project-card u {
+    font-family: Inter;
+    font-size: 24px;
+    color: white;
+}
