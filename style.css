@@ -4,7 +4,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: 201A23;
+    background-color: white;
 }
 
 .container {
@@ -21,7 +21,7 @@ body {
 .hero h1 {
     font-family: Manrope;
     font-size: 36px;
-    color: white;
+    color: 252525;
     line-height: 120%;
 }
 
@@ -47,12 +47,13 @@ u {
     width: 350px;
     margin-top: 20px;
     padding: 30px 15px;
-    background-color: blue;
+    background: #FFFFFF;
+    border: 2px solid #000000;
     border-radius: 8px;
 }
 
 .project-card u {
     font-family: Inter;
     font-size: 24px;
-    color: white;
+    color: 252525;
 }
